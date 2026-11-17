@@ -6,7 +6,7 @@ Everything lives in one Jupyter notebook: `Iris_Classification.ipynb`.
 
 ## Dataset
 
-- **Source file:** `1794206110138_iris.csv` (the classic Iris dataset)
+- **Source file:** `iris.csv` (the classic Iris dataset)
 - **Size:** 150 rows, 5 columns, no missing values
 - **Features:** `sepal_length`, `sepal_width`, `petal_length`, `petal_width` (cm)
 - **Target:** `species`, balanced at 50 samples per class
@@ -53,18 +53,18 @@ pip install numpy pandas matplotlib seaborn scikit-learn jupyter
 
 ### Run
 
-1. Place `1794206110138_iris.csv` in the same folder as the notebook (or edit the path in the "Load the dataset" cell).
+1. Place `iris.csv` in the same folder as the notebook (or edit the path in the "Load the dataset" cell).
 2. Launch Jupyter and run all cells:
 
 ```bash
-jupyter notebook 1_Iris_Classification.ipynb
+jupyter notebook Iris_Classification.ipynb
 ```
 
 ## Project Structure
 
 ```
 .
-├── 1_Iris_Classification.ipynb   # Full analysis, models and plots
-├── 1794206110138_iris.csv        # Dataset
+├── Iris_Classification.ipynb   # Full analysis, models and plots
+├── iris.csv        # Dataset
 └── README.md
 ```
