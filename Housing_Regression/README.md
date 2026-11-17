@@ -2,7 +2,7 @@
 
 Regression project comparing **OLS**, **Ridge (L2)** and **Lasso (L1)** for predicting district-level median house value in California, with feature engineering and multicollinearity diagnosis (VIF) along the way.
 
-Everything lives in one Jupyter notebook: `2_housing_regression.ipynb`.
+Everything lives in one Jupyter notebook: `housing_regression.ipynb`.
 
 ## Dataset
 
@@ -64,7 +64,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn jupyter
 2. Launch Jupyter and run all cells:
 
 ```bash
-jupyter notebook 2_housing_regression.ipynb
+jupyter notebook housing_regression.ipynb
 ```
 
 ## Project Structure
